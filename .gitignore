@@ -1,0 +1,32 @@
+# .gitignore
+# PURPOSE: exclude files and folders from git tracking
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# === DATABASE ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === DEVELOPMENT ===
+.devdbrc
+.env
+.venv/
+venv/
+
+# === IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db 
+
+# === INTERNAL DOCS ===
+TODO.md
